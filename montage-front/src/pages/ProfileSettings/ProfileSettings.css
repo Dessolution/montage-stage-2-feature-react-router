@@ -1,0 +1,30 @@
+.ProfileSettings{
+    margin: 112px 0px 0px 32px;
+    
+}
+
+.ProfileSettings_title{
+    width: 460px;
+    height: 32px;
+    font-size: 32px;
+    background-color: aqua;
+    color: #121212;
+}
+
+.ProfileSettings_nav{
+    width: 448px;
+    height: 28px;
+    display: flex;
+    margin-top: 72px;
+    font-size: 16px;
+}
+
+.Confirms{
+    background-color: aqua;
+    width: 1616px;
+    height: 80px;
+    margin-top: 62px;
+    padding: 21px ;
+    
+  
+  }

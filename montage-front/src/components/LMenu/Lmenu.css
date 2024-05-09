@@ -1,0 +1,38 @@
+.Lmenu{
+    width: 306px;
+    height: 1092px;
+    
+}
+
+.Main_buttons{
+    width: 273px;
+    height: 200px;
+    margin: 96px 16px 0px 16px;
+}
+
+.Feature{
+    width: 257px;
+    height: 264px;
+    margin: 412px 24px 0px 24px ;
+    background-color: aquamarine;
+    padding: 160px 16px 0px 17px;
+    
+}
+
+p{
+    width: 224px;
+    height: 32px;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: #1B0031;
+    
+}
+
+.footer_card{
+    width: 257px;
+    height: 264px;
+    margin-top: 412px;
+    
+}
+

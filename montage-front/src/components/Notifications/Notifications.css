@@ -1,0 +1,110 @@
+
+.Notifications {
+  display: inline-block;
+  position: relative;
+  margin-top: 56px;
+}
+.Notifications_title {
+  font-size: 24px;
+  font-family: montserrat;
+  font-weight: 700;
+  line-height: 32px;
+}
+.Notifications__line {
+  width: 1022px;
+  height: 1px;
+  background-color: #C6C7CD;
+  margin: 31.5px 0px;
+}
+
+.emailSettings {
+  display: flex;
+  justify-content: space-between;
+}
+.emailSettings__title {
+  font-family: montserrat;
+  font-weight: 600;
+  height: 48px;
+  width: 351px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.emailSettings__checkboxArea {
+  width: 520px;
+  height: 208px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.push {
+  display: flex;
+  justify-content: space-between;
+}
+.push__title {
+  font-family: montserrat;
+  font-weight: 600;
+  height: 24px;
+  width: 351px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.push__checkboxArea {
+  display: flex;
+  height: 152px;
+  width: 520px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.linkUrAcc {
+  display: flex;
+  height: 64px;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: aquamarine;
+}
+.linkUrAcc .textArea {
+  font-family: montserrat;
+}
+.linkUrAcc .textArea__title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+.linkUrAcc .textArea__subTitle {
+  color: #757B8A;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+}
+.linkUrAcc .linkUrAcc__form {
+  display: flex;
+  width: 520px;
+  height: 48px;
+  position: relative;
+  bottom: 6px;
+}
+.linkUrAcc .linkUrAcc__form  {
+  width: 334px;
+  height: 48px;
+  padding: 4px 8px;
+  font-family: montserrat;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  border-radius: 8px 0px 0px 8px;
+}
+.linkUrAcc .linkUrAcc__form .saveButton {
+  font-family: montserrat;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  width: 186px;
+  height: 48px;
+  border-radius: 0px 8px 8px 0px;
+  background-color: #FF4C4B;
+  color: white;
+}/*# sourceMappingURL=Notifications.css.map */
+

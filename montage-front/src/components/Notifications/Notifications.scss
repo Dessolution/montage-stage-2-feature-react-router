@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'montserratRegular';
+    src: url('../fonts/Montserrat/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/Montserrat/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratBlack';
+    src: url('../fonts/Montserrat/montserrat-black-webfont.woff2') format('woff2'),
+         url('../fonts/Montserrat/montserrat-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratBold';
+    src: url('../fonts/Montserrat/montserrat-bold-webfont.woff2') format('woff2'),
+         url('../fonts/Montserrat/montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratExtraBold';
+    src: url('../fonts/Montserrat/montserrat-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/Montserrat/montserrat-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratExtraLight';
+    src: url('../fonts/Montserrat/montserrat-extralight-webfont.woff2') format('woff2'),
+         url('../fonts/Montserrat/montserrat-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratItalic';
+    src: url('../fonts/Montserrat/montserrat-italic-webfont.woff2') format('woff2'),
+         url('../fonts/Montserrat/montserrat-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratLight';
+    src: url('../fonts/Montserrat/montserrat-light-webfont.woff2') format('woff2'),
+         url('../fonts/Montserrat/montserrat-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratMedium';
+    src: url('../fonts/Montserrat/montserrat-medium-webfont.woff2') format('woff2'),
+         url('../fonts/Montserrat/montserrat-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratSemiBold';
+    src: url('../fonts/Montserrat/montserrat-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/Montserrat/montserrat-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratThin';
+    src: url('../fonts/Montserrat/montserrat-thin-webfont.woff2') format('woff2'),
+         url('../fonts/Montserrat/montserrat-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin ff{
+    font-family: montserrat;  
+}
+
+body {
+    background-color: #F4F4F4;
+}
+
+.Notifications {
+    display: inline-block;
+    position: relative;
+margin-top: 60px;
+    &__title {
+        font-size: 24px;
+        @include ff;
+        font-weight: 700;
+        line-height: 32px;
+    }
+    &__line {
+width: 1022px;
+height: 1px;
+background-color: #C6C7CD;
+margin: 31.5px 0px;
+    }
+}
+
+.emailSettings{
+    display: flex;
+    justify-content: space-between;
+    &__title{
+        @include ff;
+        font-weight: 600;
+        height: 48px;
+        width: 351px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    &__checkboxArea{
+width: 520px;
+height: 208px;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+    }
+}
+.push{
+    display: flex;
+    justify-content: space-between;
+    &__title{
+        @include ff;
+        font-weight: 600;
+        height: 24px;
+        width: 351px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    &__checkboxArea{
+        display: flex;
+        height: 152px;
+        width: 520px;
+        justify-content: space-between;
+flex-direction: column;
+    }
+}
+.linkUrAcc{
+    display: flex;
+
+    height: 64px;
+    flex-direction: row;
+    justify-content: space-between;
+    .textArea {
+        @include ff;
+        &__title{
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+margin-bottom: 8px;
+        }
+        &__subTitle{
+            color: #757B8A;
+            font-size: 12px;
+            line-height: 16px;
+            font-weight: 400;
+        }
+    }
+    .linkUrAcc__form{
+        display: flex;
+        width: 520px;
+        height: 48px;
+        position: relative;
+        bottom: 6px;
+        .saveInput{
+            width:334px;
+            height: 48px;
+            padding: 4px 8px;
+            @include ff;
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 500;
+            border-radius: 8px 0px 0px 8px;
+        }
+        .saveButton{
+            @include ff;
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 500;
+            width: 186px;
+            height: 48px;
+            border-radius: 0px 8px 8px 0px;
+            background-color: #FF4C4B;
+            color: white;
+        }
+    }
+}
